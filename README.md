@@ -1,37 +1,54 @@
-# Basic Calculator
+# Simple Calculator
 
-A simple calculator program that performs basic arithmetic operations.
+A basic Python calculator program that performs different arithmetic operations.
 
 ## Features
 
-* Addition
-* Subtraction
-* Multiplication
-* Division
+* Addition of multiple numbers
+* Subtraction of two numbers
+* Multiplication of multiple numbers
+* Division of two numbers
 * Handles division by zero
+* Allows the user to perform multiple operations
+* Exit option
+
+## Operations
+
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exit
+
+## How It Works
+
+1. The user selects an operation from the calculator menu.
+2. For addition, the user can enter multiple numbers.
+3. For subtraction, the user enters two numbers.
+4. For multiplication, the user can enter multiple numbers.
+5. For division, the user enters a dividend and divisor.
+6. If the divisor is zero, the program displays an error message.
+7. The user can continue performing operations or exit the calculator.
 
 ## Technology Used
 
 * Python
 
-## How to Run
+## Concepts Used
 
-1. Download or clone this repository.
-2. Open the project in Python or VS Code.
-3. Run the Python file.
-4. Enter the required numbers and choose an operation.
+* Functions
+* `while` loop
+* `for` loop
+* `if-elif-else`
+* User input
+* Arithmetic operators
+* Exception handling
+* `try-except`
+* `ZeroDivisionError`
 
-## Example
+## Purpose
 
-```text
-Enter first number: 10
-Enter second number: 5
-
-Addition: 15
-Subtraction: 5
-Multiplication: 50
-Division: 2
-```
+This beginner-level project was created to practice Python functions, loops, conditional statements, arithmetic operations, user input, and basic exception handling.
 
 ## Author
 
